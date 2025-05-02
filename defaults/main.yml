@@ -1,0 +1,13 @@
+# defaults/main.yml
+# (user-configurable)
+---
+twingate_container_name: ""
+twingate_image: "twingate/connector:1"
+twingate_network: ""
+twingate_access_token: ""
+twingate_refresh_token: ""
+twingate_dns: ""
+twingate_label_hostname: ""
+twingate_log_analytics: "v2"
+twingate_label_deployed_by: "docker"
+...

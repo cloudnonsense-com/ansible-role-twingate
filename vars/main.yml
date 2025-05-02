@@ -1,0 +1,8 @@
+# use for hard values (not user-configurable)
+---
+compose_dir: /opt/compose
+app_name: twingate
+app_dir: "{{ compose_dir }}/{{ app_name }}"
+app_data_dir: "{{ compose_dir }}/{{ app_name }}/data"
+app_config_dir: "{{ compose_dir }}/{{ app_name }}/config"
+...
